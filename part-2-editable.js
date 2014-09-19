@@ -1,9 +1,9 @@
 $(document).on('ready', function() {
 
-	$("p").on("click", function() {
-
-		$(this).hide();
+	$(document).on("click", "p", function() {
+		$("p").addClass("editable");
 		$(this).after("<textarea></textarea>");
+		$("textarea").defaultValue = $(this);
 		$("textarea").focus();  // Auto-focus the textarea
 
 	});
@@ -15,4 +15,9 @@ $(document).on('ready', function() {
 	});
 
 
+
+
+
+
+  
 });  // end document ready
