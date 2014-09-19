@@ -9,14 +9,24 @@ img {
 }
 
 p {
-	position: relative;
 	display: block;
 }
 
 textarea {
 	display: block;
+	width: 100%
 }
 
-.editable {
-	
+h1 {
+	font-size: 20px;
+	display: block;
+	}
+
+.edit h1 {
+	font-size: 20px;
+	display: block;
+}
+
+.edit p {
+	display: block;
 }
